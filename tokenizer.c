@@ -90,5 +90,6 @@ char **strtow2(char *str, char d)
 		s[j][m] = 0;
 	}
 	s[j] = NULL;
+
 	return (s);
 }
